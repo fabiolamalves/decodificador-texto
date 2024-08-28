@@ -31,12 +31,12 @@ main {
   }
 
 .mensagem {
-  width: 510px;
+  width: 400px;
   height: 500px;
   background: white;
-  background-image: url(/imagens/bonecoAzul.png);
+  /*background-image: url(/imagens/bonecoAzul.png);
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position-x: center;*/
   border: none;
   border-radius: 24px;
   color: #0A3871;
@@ -44,6 +44,7 @@ main {
   margin-top: 20px;
   margin-left: 20px;
   position: fixed;
+  padding: 30px;
 }
 
   .mensagem:focus {

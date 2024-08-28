@@ -15,25 +15,27 @@
   
   <main>
     <section>
-      <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui..."></textarea>
+      <textarea class="text-area" cols="41" rows="5" placeholder="Digite seu texto aqui..."></textarea>
   
       <div class="informacao">
         <h6>🛈 use apenas letras minúsculas e sem acento.</h6>
+        <h6>🛈 copie e cole o texto criptografado ao lado para descriptografar.</h6>
       </div>
   
       <div class="botoes">
-        <button class="btn-encriptar">Criptografar</button>
-        <button class="btn-desencriptar">Descriptografar</button>
+        <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
   
       </div>
   
     </section>
   
     <section>
-      <textarea class="mensagem" cols="20" rows="10"></textarea>
-      <button class="btn-copiar">Copiar</button>
+      <textarea class="mensagem" cols="41" rows="5" placeholder=":D"></textarea>
+      <!--<button class="btn-copiar">Copiar</button>-->
     </section>
   
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
